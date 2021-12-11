@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Organization extends Model
 {
     use HasFactory;
+
+    public function clients()
+    {
+        return $this->hasMany(Client::class);
+    }
 }
