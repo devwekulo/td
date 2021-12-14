@@ -5,7 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
+<<<<<<< HEAD
         <title>{{ config('app.name', 'Laravel') }}</title>
+=======
+        <title>{{ config('app.name', 'TD Client Database') }}</title>
+>>>>>>> 59c1a6d0a6063e1d1c2785b12f5a15ec24498750
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
